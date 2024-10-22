@@ -3,7 +3,7 @@ import axios from "axios";
 async function fetchData() {
   try {
     const response = await axios.get(
-      "http://api.quicksell.co/v1/internal/frontend-assignment"
+      "https://api.quicksell.co/v1/internal/frontend-assignment"
     );
     // console.log(response.data.ticket)
     const items = response.data.tickets;
